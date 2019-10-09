@@ -15,13 +15,5 @@ steps:
 
 - script: java HelloWorld
   displayName: 'Run a multi-line script'
-- task: AzureCLI@2
-  inputs:
-    scriptType: 'ps'
-    scriptLocation: 'inlineScript'
-    inlineScript: |
-      javac HelloWorld.ajva
-      java HelloWorld
-    powerShellErrorActionPreference: 'continue'
 
   
