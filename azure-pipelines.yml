@@ -10,10 +10,10 @@ pool:
   vmImage: 'Windows-latest'
 
 steps:
-- script: 'javac HelloWorld.java'
+- script: javac HelloWorld.java
   displayName: 'Run a one-line script'
 
-- script: java 'HelloWorld'
+- script: java HelloWorld
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
